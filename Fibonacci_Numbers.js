@@ -17,7 +17,7 @@ function fib(num) {
 			fibArr = [0,1]
 			//Start at the first index of the array. Since I've hard coded the starting array with two values, I need to adjust my stop condition to num -2. Increment by 1 to grab each value
 			for(var i = 0; i < num-2; i++) {
-		    fibArr[fibArr.length] = fibArr[fibArr.length-1] + fibArr[fibArr.length-2]
+		    		fibArr[fibArr.length] = fibArr[fibArr.length-1] + fibArr[fibArr.length-2]
 			}
 		}
 	}
