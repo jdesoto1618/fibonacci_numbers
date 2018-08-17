@@ -15,6 +15,23 @@
   <body>
     <!-- page title as h1 -->
     <h1 class="page_title">Generate Nth Fibonacci Number</h1>
+    <!-- main div, will act as flex container -->
+    <div class="main">
+      <!-- left div, holds inputs and displays results -->
+      <div class="left">
+        <!-- user input for selecting a number to generate -->
+        <input id="user_pick" type="number" value="0" minlength="1" placeholder="Which fibonacci number?" required>
+        <!-- call function on click -->
+        <button id="generate" type="button" name="button">Find Nth Number</button>
+        <p id="result_number"></p>
+        <p id="result_array"></p>
+        <p id="result_message"></p>
+      </div> <!-- ends left div -->
+      <!-- right div, will have a button to toggle different codes -->
+      <div class="right">
+        <button id="show" type="button" name="button">Show Code</button>
+      </div> <!-- ends right div -->
+    </div> <!-- ends main div -->
     <!-- add custom js file. contains the function to generate the numbers -->
     <script src="../js/main.js"></script>
   </body>
@@ -27,4 +44,5 @@
 	use number inputs on page
 	pass numeric input from page into function
 	set up vertical two column layout, one to accept inputs and show results, the other to show the code
+  need to either truncate the result array or wrap it somehow. when large values are entered as input, output overflows right out of all container boxes, left and main
 -->
