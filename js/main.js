@@ -22,11 +22,3 @@ function fib(num) {
 	// return the array with the new values
 	return fibArr
 } // ends function
-
-/* TODO:
-	fix function so it actually works for any valid numeric value
-	throw error on the case of real number input, using mod 1
-	incorporate program into a page
-	use number inputs on page
-	pass numeric input from page into function
-*/
